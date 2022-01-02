@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#body{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: #34495e;
+    transition-duration: 5.0s;
+}
+.box{
+    background-color: #fff;
+    width: 340px;
+    height: auto;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.box-2 button{
+    padding: 20px;
+    margin: 5px ;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    transition-duration: 0.4s;
+}
+#gray{
+    background-color: #34495e;
+}
+#blue{
+    background-color: #3498db;
+}
+#green{
+    background-color: #2ecc71;
+}
+#red{
+    background-color: #e74c3c;
+}
+#yellow{
+    background-color: #f1c40f;
+}
+#orange{
+    background-color: #e67e22;
+}
